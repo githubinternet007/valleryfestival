@@ -88,12 +88,12 @@ header>h1>a {
     overflow: hidden;
     /* display: none; */
     text-align: center;
-    height: 0;
-    left: 180px;
+    width: 0px;
+    /* height: 0px; */
+    left: 55px;
     top: 0%;
     /* line-height: 2.5; */
-    transition: all 1s;
-
+    transition: all .5s;
 }
 
 .m-depth2>li {
@@ -109,6 +109,7 @@ header>h1>a {
     /* display: block; */
     width: 180px;
     height: auto;
+    left: 180px;
 
 }
 
@@ -138,7 +139,7 @@ header>h1>a {
  /* } */
 
 .m-depth2 a:hover {
-    display: inline-block;
+    /* display: inline-block; */
     width:100%;height: 100%auto;
     background: rgba(255, 99, 71);
     /* line-height: 1.8; */
