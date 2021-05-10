@@ -90,10 +90,9 @@ header>h1>a {
     text-align: center;
     width: 0px;
     /* height: 0px; */
-    left: 55px;
-    top: 0%;
+        /* top: 0%; */
     /* line-height: 2.5; */
-    transition: all .5s;
+    transition: all .25s;
 }
 
 .m-depth2>li {
@@ -110,6 +109,7 @@ header>h1>a {
     width: 180px;
     height: auto;
     left: 180px;
+    top: 0%;
 
 }
 
@@ -119,12 +119,12 @@ header>h1>a {
 /* line-height: 2.5; */
 /* }  */
 
-.m-depth2>li:hover .m-depth1 li {
+/*.m-depth2>li:hover .m-depth1 li {
     background: rgba(255, 0, 0, .5);
     border: 0.5px solid rgb(255, 0, 0, .1);
     border-radius: 7px 0 0 0;
     color: white;
-}
+ } */
 
 /* .m-depth1>li>h2>a:hover .m-depth2 { */
 /* left: 180px; */
@@ -139,12 +139,12 @@ header>h1>a {
  /* } */
 
 .m-depth2 a:hover {
-    /* display: inline-block; */
+    display: inline-block;
     width:100%;height: 100%auto;
     background: rgba(255, 99, 71);
     /* line-height: 1.8; */
     font-weight: bold;
-    color: #ffffff;
+    color: #fff;
 }
 
 .slide {
